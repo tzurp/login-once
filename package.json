@@ -1,0 +1,32 @@
+{
+    "name": "wdio-login-once-service",
+    "version": "0.1.1-0",
+    "main": "build/app.js",
+    "types": "build/app.d.ts",
+    "files": [
+        "/build/src",
+        "/build/app.d.ts",
+        "/package-dir/package.json"
+    ],
+    "keywords": [
+        "wdio-plugin",
+        "wdio-service",
+        "login",
+        "authentication"
+    ],
+    "devDependencies": {
+        "@wdio/cli": "^7.19.5",
+        "@wdio/local-runner": "^7.19.5",
+        "@wdio/mocha-framework": "^7.19.5",
+        "@wdio/spec-reporter": "^7.19.5",
+        "chromedriver": "^100.0.0",
+        "ts-node": "^10.7.0",
+        "typescript": "^4.6.3",
+        "wdio-chromedriver-service": "^7.3.2"
+    },
+    "scripts": {
+        "test": "wdio run test/wdio.conf.ts"
+    },
+    "author": "Tzur Paldi",
+    "license": "ISC"
+}

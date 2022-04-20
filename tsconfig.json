@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "types": [
+            "node",
+            "webdriverio/async",
+            "@wdio/mocha-framework",
+        ],
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./build",
+        "esModuleInterop": true
+    },
+    "include": [
+        "src/**/*",
+        "test/specs/**/*",
+        "app.ts"
+    ]
+}
